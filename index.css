@@ -1,0 +1,54 @@
+.myListing {
+    display: block;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  img {
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+  }
+  
+  @keyframes spinning {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  body {
+    color: #ffbe0b;
+    background-color: #003049;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .myfooter {
+  
+    text-align: left;
+    
+  
+  }
+  
+  .footerimg {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .i {
+    list-style-type: upper-roman;
+    
+  }
+  
