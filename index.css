@@ -49,6 +49,7 @@
   
   .i {
     list-style-type: upper-roman;
+    display: block;
     
   }
   
