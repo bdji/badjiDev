@@ -45,11 +45,21 @@
   .footerimg {
     height: 30px;
     width: 30px;
+    
   }
   
   .i {
     list-style-type: upper-roman;
     
-    
-  }
+    }
+
+    .hrefColor {
+      color: #e71d36;
+      font-size: large;
+    }
+
+    .footerColor {
+      color: #e71d36;
+      font-size: large;
+    }
   
